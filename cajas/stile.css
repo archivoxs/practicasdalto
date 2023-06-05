@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    background-color: antiquewhite;
+    
+}
+
+
+
+div {
+    width: 200px;
+    height: 200px;
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    transition: 1.5s;
+}
+
+.contenedor{
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background: red;
+    margin: 10% auto;
+    transition: 1.5s;
+    
+}
+
+.caja {
+    background:rgb(15, 233, 4) ;
+    
+   
+}
+.caja2 {
+    background: blue;    
+    right: 0;
+   
+}
+.caja3 {
+    background:black ;
+   bottom: 0;
+   left: 0;
+}
+.caja4 {
+    background:orange ;
+    right: 0; 
+    bottom: 0;
+}
+
+.caja5{
+    background: rgb(8, 228, 221);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.caja6 {
+
+     
+}
+
+
+.caja:hover{
+    border-radius: 25%;
+    transition: .5s;
+}
+
+
+
+@media (max-width: 992px){
+    
+    div {
+        width: 100px;
+        height: 100px;
+        display: block;
+        position: absolute;
+        border-radius: 50%;
+        transition: 1.5s;
+    }
+    .contenedor{
+        position: relative;
+        width: 300px;
+        height: 300px;
+        background: red;
+        margin: 10% auto;
+        transition: 1.5s;
+        
+    }
+}
